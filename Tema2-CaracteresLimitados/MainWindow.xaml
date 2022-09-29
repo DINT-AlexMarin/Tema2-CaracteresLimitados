@@ -1,0 +1,14 @@
+﻿<Window x:Class="Tema2_CaracteresLimitados.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema2_CaracteresLimitados"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="147.848" Margin="233.347,144.494,0,0" TextWrapping="Wrap" Text="Escribe Aquí" VerticalAlignment="Top" AcceptsReturn="True" Width="321.677" MaxLength="140"/>
+        <TextBlock HorizontalAlignment="Left" Margin="321.152,85.5,0,0" TextWrapping="Wrap" Text="Escribe Texto" VerticalAlignment="Top" Height="33.415" Width="130.976" Foreground="Black" FontSize="22"/>
+
+    </Grid>
+</Window>
