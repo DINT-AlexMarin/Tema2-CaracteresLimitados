@@ -20,9 +20,22 @@ namespace Tema2_CaracteresLimitados
     /// </summary>
     public partial class MainWindow : Window
     {
+        int Letras = 0;
         public MainWindow()
         {
             InitializeComponent();
+
+            
+        }
+
+        private void textChanged(object sender, TextChangedEventArgs e)
+        {
+            
+            contador.Text = cajaTextBox.Text.Length.ToString()+"/140";
+            if (cajaTextBox.Text.Length >= 140)
+            {
+                cajaTextBox.IsReadOnly = true;
+            }
         }
     }
 }
